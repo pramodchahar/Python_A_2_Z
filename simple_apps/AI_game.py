@@ -1,6 +1,6 @@
-import random
+from random import randint 
 
-ai_num=random.randint(1,3)
+ai_num=randint(1,3)
 computer=[]
 if ai_num == 1:
     computer='rock'
