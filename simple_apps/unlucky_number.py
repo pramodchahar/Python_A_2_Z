@@ -1,10 +1,9 @@
 for i in range (1,21):
-    if i ==4 :
-        print('The number is unlucky !!')
-    elif  i==13:
-        print('The number is unlucky !!')
+    if i ==4 or i ==13:
+        state='Unlucky'
     elif i %2 ==1:
-        print("The number is odd !! ")
+        state='Odd'
     else :
-        print("The number is even !!")
+        state='Even'
+    print(f'{i} is {state}')
 
