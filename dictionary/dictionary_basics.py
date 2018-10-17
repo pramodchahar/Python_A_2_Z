@@ -26,7 +26,7 @@ for x,y in dict_new.items():
     print('key is  :' + str(x) , 'value is : '+ str(y))
 
 
-#check for key or values in dictionary 
+#check for key or values or items in dictionary 
 
 print('name' in dict_new)
 print('Pramod' in dict_new.values())
